@@ -1,3 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+}
+
 h1 {
     color: #979DF7;
+}
+
+h2 {
+    color: #FF6161;
+}
+
+h3 {
+    color: #00AED1;
+}
+
+.AboutMe {
+    color: #12BA2E;
 }
