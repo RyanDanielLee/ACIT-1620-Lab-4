@@ -7,6 +7,11 @@ h1 {
   color: #979df7;
 }
 
+nav {
+  background-color: #36454f;
+  text-align: center;
+}
+
 h2 {
   color: #ff6161;
 }
