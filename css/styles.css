@@ -24,3 +24,24 @@ h3 {
 .AboutMe {
   color: #12ba2e;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.gridText {
+  grid-column: 1;
+}
+
+.gridText p:first-of-type {
+  margin-bottom: 300px;
+}
+
+.gridImage {
+  grid-column: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
