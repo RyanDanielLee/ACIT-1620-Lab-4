@@ -3,13 +3,13 @@ body {
   color: white;
 }
 
-h1 {
+.h1InIndex {
   color: #979df7;
   font-family: 'Montserrat', sans-serif;
 }
 
 nav {
-  background-color: #36454f;
+  background-color: white;
   text-align: center;
 }
 
