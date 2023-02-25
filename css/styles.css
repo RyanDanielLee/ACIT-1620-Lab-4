@@ -3,11 +3,6 @@ body {
   color: white;
 }
 
-.h1InIndex {
-  color: #979df7;
-  font-family: 'Montserrat', sans-serif;
-}
-
 nav {
   background-color: white;
   text-align: center;
@@ -23,6 +18,16 @@ h3 {
 
 .AboutMe {
   color: #12ba2e;
+}
+
+.h1InIndex {
+  color: #81036E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navLinks {
+  display: inline-flex;
+  list-style: none;
 }
 
 .grid {
@@ -44,4 +49,11 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ACFFA8;
 }
