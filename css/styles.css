@@ -73,4 +73,36 @@ footer {
     display: flex;
     justify-content: center;
   }
+
+  .courseList {
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    gap: 5px;
+  }
+
+  .courseDescriptionBorder {
+    border-bottom: solid 5px #ACFFA8;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .navLinks {
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .courseDate {
+    margin-top: 100px;
+  }
+
+  .courseDescriptionBorder {
+    border-bottom: solid 5px #ACFFA8;
+    text-align: right;
+  }
+
+  .courseDescription3 {
+    text-align: right;
+  }
 }
