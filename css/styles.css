@@ -75,19 +75,32 @@ footer {
   }
 
   .courseList {
-    display: flex;
-    justify-content: center;
-  }
-
-  .courseList {
     display: grid;
     grid-template-rows: repeat(3,1fr);
     gap: 5px;
   }
 
+  .courseList article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .courseList article p:last-of-type {
+    margin-top: 0;
+    order: 0;
+  }
+
   .courseDescriptionBorder {
     border-bottom: solid 5px #ACFFA8;
     text-align: left;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .courseDescription3 {
+    text-align: left;
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 
@@ -102,12 +115,11 @@ footer {
     border-bottom: solid 5px #ACFFA8;
   }
 
-  .courseDescriptionAlign {
-    text-align: center;
+  .courseDescriptionBorder p:first-of-type {
+    margin-bottom: 10px;
   }
 
-  .courseDescription3 {
+  .courseDescriptionAlign {
     text-align: center;
-    text-indent: -325px;
   }
 }
