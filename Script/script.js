@@ -34,7 +34,7 @@ let isInputInList = false;
 
 for (let i = 0; i < courseList.length; i++) {
     if(courseList[i].code.includes(userInput)) {
-        console.log(`Yes I am taking the course: ${courseList[i].code}`);
+        console.log(`Yes I am taking the course: ${courseList[i].code} - ${courseList[i].name}`);
         isInputInList = true;
     }
 }
